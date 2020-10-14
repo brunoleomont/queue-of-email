@@ -43,7 +43,8 @@
 -  Enter the folder `queueofemail`
 -  Run `yarn` or `npm install` to install the dependencies
 -  Copy the `.env.example` file and create an `.env` file with email and Redis credentials
-- Run `yarn start` and `yarn queue` or `npm start` and `npm run queue` to start the full featured local server
+-  Run `yarn start` and `yarn queue` or `npm start` and `npm run queue` to start the full featured local server
+-  Can you use Redis Docker image `docker run --name redis -p 6379:6379 -d -t redis:alpine` 
 
 ## [](#license):memo: License
 This project is under the MIT license. See the [LICENSE](https://github.com/brunoleomont/queueofemail/blob/master/LICENSE) for more information.
